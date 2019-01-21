@@ -6,10 +6,17 @@ public class Calculator {
         return sum;
     }
 
-    public static double substruct( double num1, double num2){
+    public static double substruct(double num1, double num2) {
+
         return num1 - num2;
     }
-    public static double multiply( double num1, double num2){
-        return num1*num2;
+
+    public static double multiply(double num1, double num2) {
+        return num1 * num2;
+    }
+
+    public static double divide (double num1, double num2){
+        double result = num1/num2;
+        return  result;
     }
 }
