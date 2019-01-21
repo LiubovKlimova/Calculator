@@ -12,8 +12,10 @@ public class Calculator {
     public static double multiply( double num1, double num2){
         return num1*num2;
     }
+    //this is comment in GITHUB1
     public static double divide(double number, double num2){
        double result = number/num2;
         return result;
     }
+    //this is comment2
 }
